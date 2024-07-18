@@ -1,0 +1,12 @@
+apiVersion: scm.greenhouse.sap/v1alpha1
+kind: GithubRepository
+metadata:
+  labels:
+    app.kubernetes.io/name: githubrepository
+    app.kubernetes.io/instance: githubrepository-sample
+    app.kubernetes.io/part-of: github
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/created-by: github
+  name: githubrepository-sample
+spec:
+# TODO(user): Add fields here
